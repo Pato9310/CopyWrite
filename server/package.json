@@ -4,8 +4,8 @@
   "description": "server copywrite",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
     "test": "mocha -w ./tests/**/*.spec.js"
   },
   "repository": {
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/pato9310/CopyWrite#readme",
   "dependencies": {
     "cors": "2.8.5",
+    "dotenv": "16.0.1",
     "express": "4.18.1"
   },
   "engines": {
