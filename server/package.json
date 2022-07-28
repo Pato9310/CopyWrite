@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server copywrite",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "mocha -w ./tests/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pato9310/CopyWrite.git"
+  },
+  "author": "Mariano Duhalde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pato9310/CopyWrite/issues"
+  },
+  "homepage": "https://github.com/pato9310/CopyWrite#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.1"
+  },
+  "engines": {
+    "node": "12"
+  },
+  "devDependencies": {
+    "chai": "4.3.6",
+    "mocha": "10.0.0",
+    "nodemon": "2.0.19",
+    "supertest": "6.2.4"
+  }
+}
