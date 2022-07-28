@@ -9,7 +9,7 @@ export const getData = createAsyncThunk(
   'texts/getData',
   async (text) => {
     try {
-      const response = await axios.get(`http://localhost:3001/api/iecho?text=${text}`);
+      const response = await axios.get(`http://localhost:5000/api/iecho?text=${text}`);
       return response.data;
     } catch (error) {
       alert('something went wrong')
